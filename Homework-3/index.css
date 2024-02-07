@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  background-color: black;
+  color: goldenrod;
+  margin: 0;
+  padding: 0;
+}
+.wyltkm {
+  font-weight: 900;
+  font-size: 2.5vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgb(46, 0, 0);
+  color: gold;
+  width: min(45%, 800px);
+  text-align: center;
+  border: 3px solid red;
+}
+#fmw {
+  font-size: 0.65vw;
+  border: 3px solid cyan;
+  text-align: center;
+}
+.paragraph {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: right;
+  border: 3px solid seagreen;
+}
+#fin {
+  font-family: cursive;
+  font-style: italic;
+  color: rgb(255, 116, 190);
+  border: 3px solid deeppink;
+  text-align: center;
+  margin: 32px;
+}
+.meat {
+  border: 3px solid rebeccapurple;
+  box-shadow: 0px 10px 20px wheat;
+}
+.meat h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 8rem;
+  padding: 32px;
+  border: 3px solid orchid;
+  margin-top: 32px;
+  margin-right: auto;
+  background: linear-gradient(to right, rgb(241, 24, 190), rgb(255, 207, 33));
+  background-clip: padding-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  animation: fade 3s ease-in 1s;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.meat h2 {
+  border: 3px solid orange;
+}
+.meat h3 {
+  border: 3px solid blue;
+}
+#ages {
+  border: 3px solid peachpuff;
+  margin: 15px;
+  text-align: center;
+}
+.containy {
+  margin: 32px;
+  border: 3px solid saddlebrown;
+  font-size: 220px;
+  width: 650px;
+  height: 275px;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+.containy .card {
+  min-width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: center;
+}
+.containy .card:nth-child(1) {
+  background-color: lightgreen;
+  color: black;
+}
+.containy .card:nth-child(2) {
+  background-color: lightsalmon;
+  color: black;
+}
+.containy .card:nth-child(3) {
+  background-color: lightskyblue;
+  color: black;
+}
+.containy .card:nth-child(4) {
+  background-color: lightseagreen;
+  color: black;
+}
+.containy .card:nth-child(5) {
+  background-color: lightcoral;
+  color: black;
+}
+.image {
+  display: block;
+  border: 3px solid slateblue;
+  margin: auto;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.list-container {
+  padding: 15px;
+  color: darkcyan;
+  border: 3px solid sandybrown;
+}
+.list {
+  color: lightblue;
+}
+.contact-container {
+  align-items: center;
+  width: 30%;
+  border: 3px solid blue;
+  padding: 20px, 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
